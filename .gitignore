@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Prisma
+backend/prisma/*.db
+
+# Docker
+docker-compose.yml
+
+# Images de référence
+*.jpeg
+*.jpg
+frontend/src/assets/interfaces_debafoot.png
